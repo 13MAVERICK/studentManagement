@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" ></script>
+</head>
+<body>
+  <h2>Event Registration</h2>
+  <form>
+    Name: <input id="name"><br><br>
+    Email: <input id="email"><br><br>
+    Phone: <input id="phone"><br><br>
+    Event: <select id="event"><option value="">Select</option><option>Workshop</option><option>Seminar</option></select><br><br>
+    <button type="button" onclick="submitForm()">Register</button>
+    <button type="reset" onclick="clearForm()">Reset</button>
+  </form>
+  <p id="message"></p>
+</body>
+</html>
